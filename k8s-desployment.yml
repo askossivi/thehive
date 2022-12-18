@@ -177,6 +177,7 @@ metadata:
   name: minio
   namespace: thehive
 spec:
+  type: NodePort    # Change here
   ports:
     - port: 9000
   selector:
